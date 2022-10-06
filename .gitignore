@@ -1,0 +1,6 @@
+output
+.direnv
+.spago
+dist
+output-es
+node_modules
