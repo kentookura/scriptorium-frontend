@@ -1,4 +1,7 @@
 output
+src/Calendar
+.psc*
+tsconfig.json
 .direnv
 .spago
 dist

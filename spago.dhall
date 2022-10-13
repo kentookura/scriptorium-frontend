@@ -36,6 +36,7 @@
   , "routing"
   , "routing-duplex"
   , "safe-coerce"
+  , "simple-json"
   , "slug"
   , "strings"
   , "transformers"
