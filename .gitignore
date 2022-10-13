@@ -1,4 +1,5 @@
 output
+dist
 src/Calendar
 .psc*
 tsconfig.json
