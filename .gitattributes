@@ -1,1 +1,2 @@
 *.purs linguist-language=PureScript
+*.purs linguist-detectable
