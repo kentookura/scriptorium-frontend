@@ -9,7 +9,7 @@
     "build": "spago build",
     "test": "spago test",
     "serve": "spago build && esbuild --bundle index.js --servedir=dist",
-    "bundle": "spago -x spago.production.dhall build && purs-backend-es bundle-app --main Main --minify --no-build --to dist/main.js"
+    "bundle": "spago -x spago.production.dhall build && purs-backend-es bundle-app --platform=node --main Main --minify --no-build --to dist/main.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "dependencies": {
     "@types/node": "^18.8.2",
     "decimal.js": "^10.3.1",
+    "ical": "^0.8.0",
     "ical-js-parser": "^0.7.0",
     "ical.js": "^1.5.0",
     "marked": "^4.0.15",
@@ -26,6 +27,6 @@
   "devDependencies": {
     "esbuild": "^0.14.38",
     "fs": "^0.0.1-security",
-    "purs-backend-es": "^1.1.0"
+    "purs-backend-es": "^1.1.1"
   }
 }
